@@ -1,0 +1,13 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define int long long
+
+
+signed main(){
+    int a = 1;
+    int b = 1;
+    int *pa = &a;
+    int *pb = &b;
+
+    cout << (pa == pb);
+}
